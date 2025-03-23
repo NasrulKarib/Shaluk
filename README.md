@@ -59,58 +59,57 @@ npm start
 ```
 ## Features
 ### Homepage
-The homepage provides an overview of the platform, showcasing featured books, top sellers, and new arrivals. It serves as the main entry point for users to explore the book collection.
+The homepage provides an overview of the platform, showcasing restaurants, foods, medicines, special offers and populer items etc. It serves as the main entry point for users to explore the items.
 
-![alt text](./frontend//src/assets/Readme/HomePage1.JPG)
-Top Sellers Section Shows the top selling books at a certain period
-![alt text](./frontend//src/assets/Readme/HomePage2.JPG)
-Recommended for you shows curated books just for you
-![alt text](./frontend//src/assets/Readme/HomePage3.JPG)
+![alt text](./frontend//src/asset/Readme/homepage/homepage1.png)
+![alt text](./frontend//src/asset/Readme/homepage/homepage2.png)
+![alt text](./frontend//src/asset/Readme/homepage/homepage3.png)
+![alt text](./frontend//src/asset/Readme/homepage/homepage4.png)
+![alt text](./frontend//src/asset/Readme/homepage/homepage5.png)
+![alt text](./frontend//src/asset/Readme/homepage/footer.png)
 
-### All Books Page
-This page displays a comprehensive list of all available books. Users can browse through the collection, filter by categories, and search for specific titles or authors.
 
-![alt text](./frontend//src/assets/Readme/AllBooksPage.JPG)
+### All Foods and Medicines
+Users can browse all foods by clicking up food in the header section. Same goes for medicines.
+
+![alt text](./frontend//src/asset/Readme/products/foods.png)
+
+![alt text](./frontend//src/asset/Readme/products/medicines.png)
 
 ### User Signup
-New users can create an account by providing their details. This allows them to access personalized features such as adding books to their wishlist and placing orders.
+New users can create an account by providing their details.
 
-![alt text](./frontend//src/assets/Readme/Register.JPG)
+![alt text](./frontend//src/asset/Readme/auth/signup.png)
 
 ### User Login
-Existing users can log in to their accounts to access their saved preferences, order history, and other personalized features.
+Existing users can log in to their accounts to access their information, order history, and other personalized features.
 
-![alt text](./frontend//src/assets/Readme/Login.JPG)
+![alt text](./frontend//src/asset/Readme/auth/login.png)
 
 ### Admin Dashboard
-Admins have access to a dedicated dashboard where they can manage the book listings, including adding new books, updating existing ones, and removing books from the catalog.
+Admins have access to a dedicated dashboard where they can manage orders, add shops and items.
 
-![alt text](./frontend//src/assets/Readme/dashboardadmin.JPG)
+![alt text](./frontend//src/asset/Readme/admin/admin1.png)
+![alt text](./frontend//src/asset/Readme/admin/admin2.png)
+![alt text](./frontend//src/asset/Readme/admin/admin3.png)
 
 ### Add to cart
-Users can add books to their cart for purchase. The cart keeps track of selected items and allows users to proceed to checkout when they are ready to complete their purchase.
+Users can add products to card and increase quantity. They can add a particular product at a time. They can watch their previous order records also
 
-![alt text](./frontend//src/assets/Readme/AddtoCart.JPG)
+![alt text](./frontend//src/asset/Readme/order/cart.png)
+![alt text](./frontend//src/asset/Readme/order/ordered_products.png)
 
-### Checkout Page
-The checkout page provides a summary of the items in the user's cart and allows them to enter their shipping and payment information to complete the purchase.
 
-![alt text](./frontend//src/assets/Readme/CheckoutPage.JPG)
 
-### Order Page
-The order page allows users to view their order history, track the status of their current orders, and manage their past purchases.
+### Description Page
+This page provides detailed information about a specific items, including its name, price, rating and description .
 
-![alt text](./frontend//src/assets/Readme/OrderPage.JPG)
+![alt text](./frontend//src/asset/Readme/products/products1.png)
 
-### Books Description Page
-This page provides detailed information about a specific book, including its description, author, price, and reviews from other users.
+### Shop
+This page shows the itmes of a particular restaurant.
 
-![alt text](./frontend//src/assets/Readme/SingleBook.JPG)
-
-### Related Books Section
-The related books section suggests books similar to the one currently being viewed, helping users discover more books of interest.
-
-![alt text](./frontend//src/assets/Readme/RelatedBooks.JPG)
+![alt text](./frontend//src/asset/Readme/shop/shop.png)
 
 ## 🤝 Contributing  
 Contributions are welcome! Feel free to open issues or submit pull requests to improve **Shaluk**.  
