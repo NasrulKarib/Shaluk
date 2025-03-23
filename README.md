@@ -57,7 +57,22 @@ npm install
 # Start the development server
 npm start
 ```
+## 🗄️ Database Schema (ER Diagram)
+![ER Diagram](ER_Diagram.png)
 
+The **Shaluk** database schema follows a **relational model** with four main entities: **users, shops, products, and orders**. Below are the key points about the schema:
+
+- **Users** can sign up, log in, and place orders.
+- **Shops** contain information about vendors selling food and medicine.
+- **Products** belong to specific shops and are available for users to order.
+- **Orders** track user purchases, including quantity, price, and order status.
+- Relationships:
+  - A **user** can place multiple **orders**.
+  - A **shop** can have multiple **products**.
+  - An **order** is associated with one **product** and one **user**.
+- This structured schema ensures efficient data management and a seamless user experience.
+
+  
 ## Features
 ### Homepage
 The homepage provides an overview of the platform, showcasing restaurants, food, medicines, special offers, and popular items.
