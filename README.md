@@ -1,17 +1,17 @@
 # Shaluk
 
 ## 📝 Overview  
-**Shaluk** is a web app designed for **CUET students** to order food and essential medicines from local shops. It eliminates the struggle of finding supplies after evening hours, ensuring a smooth browsing, searching, and ordering experience. The platform includes an **admin panel** to manage shops, products, and deliveries efficiently.
+**Shaluk** is a web app designed for **CUET students** to order food and essential medicines from local shops. It eliminates the struggle of finding supplies after evening hours, providing a seamless browsing, searching, and ordering experience. The platform includes an **admin panel** to manage shops, products, and deliveries efficiently.
 
 ## 🎯 Motivation  
-Students at CUET often struggle to purchase food or medicine in the evening due to:
+Students at CUET often face challenges in purchasing food or medicine in the evening due to:
 
-- **Lack of nearby shops** – Most essential stores are outside campus, making access difficult.
+- **Lack of nearby shops** – Essential stores are located outside campus, making access difficult.
 - **Dependence on friends** – Students rely on others going outside for tuition to bring necessities.
-- **Restricted movement for female students** – The **women’s hall gate closes at 7 PM**, limiting their ability to buy essentials.
-- **Urgent medical needs** – Sometimes, students require immediate medicine but face accessibility issues.
+- **Restricted movement for female students** – The **women’s hall gate closes at 7 PM**, limiting their access to essential supplies.
+- **Urgent medical needs** – Students sometimes require immediate medicine but struggle to find it on time.
 
-**Shaluk** solves these problems by providing a **centralized ordering platform** where students can conveniently place orders, and admins ensure timely deliveries.
+**Shaluk** addresses these problems by offering a **centralized ordering platform**, allowing students to place orders conveniently while admins ensure timely deliveries.
 
 ## 🚀 Key Features  
 
@@ -57,59 +57,56 @@ npm install
 # Start the development server
 npm start
 ```
+
 ## Features
 ### Homepage
-The homepage provides an overview of the platform, showcasing restaurants, foods, medicines, special offers and populer items etc. It serves as the main entry point for users to explore the items.
+The homepage provides an overview of the platform, showcasing restaurants, food, medicines, special offers, and popular items.
 
-![alt text](./frontend//src/asset/Readme/homepage/homepage1.png)
-![alt text](./frontend//src/asset/Readme/homepage/homepage2.png)
-![alt text](./frontend//src/asset/Readme/homepage/homepage3.png)
-![alt text](./frontend//src/asset/Readme/homepage/homepage4.png)
-![alt text](./frontend//src/asset/Readme/homepage/homepage5.png)
-![alt text](./frontend//src/asset/Readme/homepage/footer.png)
-
+![alt text](./frontend/src/asset/Readme/homepage/homepage1.png)
+![alt text](./frontend/src/asset/Readme/homepage/homepage2.png)
+![alt text](./frontend/src/asset/Readme/homepage/homepage3.png)
+![alt text](./frontend/src/asset/Readme/homepage/homepage4.png)
+![alt text](./frontend/src/asset/Readme/homepage/homepage5.png)
+![alt text](./frontend/src/asset/Readme/homepage/footer.png)
 
 ### All Foods and Medicines
-Users can browse all foods by clicking up food in the header section. Same goes for medicines.
+Users can browse all food items by clicking on **Food** in the header section. The same applies to **Medicines**.
 
-![alt text](./frontend//src/asset/Readme/products/foods.png)
-
-![alt text](./frontend//src/asset/Readme/products/medicines.png)
+![alt text](./frontend/src/asset/Readme/products/foods.png)
+![alt text](./frontend/src/asset/Readme/products/medicines.png)
 
 ### User Signup
 New users can create an account by providing their details.
 
-![alt text](./frontend//src/asset/Readme/auth/signup.png)
+![alt text](./frontend/src/asset/Readme/auth/signup.png)
 
 ### User Login
-Existing users can log in to their accounts to access their information, order history, and other personalized features.
+Existing users can log in to access their account, order history, and personalized features.
 
-![alt text](./frontend//src/asset/Readme/auth/login.png)
+![alt text](./frontend/src/asset/Readme/auth/login.png)
 
 ### Admin Dashboard
-Admins have access to a dedicated dashboard where they can manage orders, add shops and items.
+Admins have access to a dedicated dashboard where they can manage orders, add shops, and add items.
 
-![alt text](./frontend//src/asset/Readme/admin/admin1.png)
-![alt text](./frontend//src/asset/Readme/admin/admin2.png)
-![alt text](./frontend//src/asset/Readme/admin/admin3.png)
+![alt text](./frontend/src/asset/Readme/admin/admin1.png)
+![alt text](./frontend/src/asset/Readme/admin/admin2.png)
+![alt text](./frontend/src/asset/Readme/admin/admin3.png)
 
-### Add to cart
-Users can add products to card and increase quantity. They can add a particular product at a time. They can watch their previous order records also
+### Add to Cart
+Users can add products to the cart, increase quantity, order product and review their past orders.
 
-![alt text](./frontend//src/asset/Readme/order/cart.png)
-![alt text](./frontend//src/asset/Readme/order/ordered_products.png)
-
-
+![alt text](./frontend/src/asset/Readme/order/cart.png)
+![alt text](./frontend/src/asset/Readme/order/ordered_products.png)
 
 ### Description Page
-This page provides detailed information about a specific items, including its name, price, rating and description .
+This page provides detailed information about a specific item, including its name, price, rating, and description.
 
-![alt text](./frontend//src/asset/Readme/products/products1.png)
+![alt text](./frontend/src/asset/Readme/products/products1.png)
 
 ### Shop
-This page shows the itmes of a particular restaurant.
+This page displays items available from a particular restaurant.
 
-![alt text](./frontend//src/asset/Readme/shop/shop.png)
+![alt text](./frontend/src/asset/Readme/shop/shop.png)
 
 ## 🤝 Contributing  
 Contributions are welcome! Feel free to open issues or submit pull requests to improve **Shaluk**.  
